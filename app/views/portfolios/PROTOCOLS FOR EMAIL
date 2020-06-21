@@ -1,0 +1,71 @@
+PROTOCOLS FOR EMAIL
+
+
+SMTP
+
+SMTP stands for Simple Mail Transfer Protocol.
+SMTP is a set of communication guidelines that allow software to transmit an electronic mail over the internet. 
+
+Mail User Agent (MUA) 
+Mail transfer agent (MTA)
+
+WORKING OF SMTP
+Composition of Mail
+Submission of Mail
+Delivery of Mail
+Receipt and Processing of Mail
+Access and Retrieval of Mail
+
+MX record - Mail exchanger record (MX record) specifies the mail server responsible for accepting email messages on behalf of a domain name. It is a resource record in the Domain Name System (DNS). 
+
+Default ports
+Port 25 - this is the default SMTP non-encrypted port
+Port 2525 - this port is opened on all SiteGround servers in case port 25 is filtered (by your ISP for example) and you want to send non-encrypted emails with SMTP
+Port 465 - this is the port used if you want to send messages using SMTP securely
+
+
+IMAP
+
+Internet Message Access Protocol
+IMAP allows access to email messages form anywhere.
+Messages are stored on server. 
+Port 143 - this is the default IMAP non-encrypted port
+Port 993 - this is the port you need to use if you want to connect using IMAP securely
+
+
+POP3
+
+Post Office Protocol
+used to receive emails from a remote server to a local email client.
+Port 110 - this is the default POP3 non-encrypted port
+Port 995 - this is the port you need to use if you want to connect using POP3 securely
+
+
+SPAM EMAILS
+
+Spam is any kind of unwanted, unsolicited digital communication, often an email, that gets sent out in bulk.
+
+Types of Spams
+Advance-fee scams
+Phishing emails
+Malspam
+
+
+AWS SES
+
+A cloud-based email sending service designed to help digital marketers and application developers send marketing, notification, and transactional emails. 
+
+Send transactioanl messages
+Send promotional messages
+
+Features
+High Deliverability
+Content Personalization
+Authentication
+Dedicated IP Addresses
+Monitoring
+Sender Reputation Management
+Flexible Email Receiving
+Multiple Email Sending Interfaces
+Mailbox Simulator
+AWS Integration
